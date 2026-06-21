@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Anggara Shalahuddin Jusuf - Profil Pribadi"
+    />
+    <meta
+      property="og:description"
+      content="Halo! Saya Anggara, kelas 5 SD Al-Irsyad Al Islammiyah 01 Purwokerto. Saya suka belajar bahasa Jerman, menonton YouTube, dan membuat animasi."
+    />
+    <meta
+      property="og:image"
+      content="https://website-angga.vercel.app/angga.jpg"
+    />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://website-angga.vercel.app" />
+    <meta property="og:site_name" content="Profil Anggara" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Anggara Shalahuddin Jusuf - Profil Pribadi</title>
+  </head>
+  <body>
+    <!-- Splash Screen -->
+    <div id="splashScreen" class="splash-screen">
+      <div class="splash-content">
+        <h1>Selamat Datang</h1>
+        <p>di Website Anggara 🎉</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="angga.jpg" />
+
+      <div class="intro">
+        <h1>Halo, namaku Anggara Shalahuddin Jusuf!</h1>
+      </div>
+
+      <div class="Dataku">
+        <h2>Data diri</h2>
+        <p>Umur : 12 tahun</p>
+        <p>Sekolah : SD Al-Irsyad Al Islammiyah 01 Purwokerto</p>
+        <p>Kelas : 5D Ja'far Bin Abi Thalib</p>
+      </div>
+
+      <div>
+        <h2>Hobi-hobiku</h2>
+        <ul>
+          <li>Belajar bahasa Jerman</li>
+          <li>Nonton Youtube</li>
+          <li>Sejarah</li>
+          <li>Membuat skenario kostum</li>
+          <li>Membuat Animasi</li>
+          <li>Maber dengan teman-teman</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Makanan kesukaanku</h2>
+
+        <ul>
+          <li>Ramen</li>
+          <li>Mie Instant</li>
+          <li>Bakso</li>
+          <li>Kentang goreng</li>
+        </ul>
+      </div>
+
+      <div class="fitur">
+        <button class="info" id="btn">Ganti background!</button>
+      </div>
+      <div class="fitur">
+        <button class="info" id="alertBtn">Sapa aku</button>
+      </div>
+
+      <div class="fitur">
+        <h3>💖 Like : <span id="like">0</span></h3>
+        <button class="info" id="likeBtn">Like</button>
+      </div>
+
+      <div class="fitur">
+        <h3>⌚ Jam sekarang</h3>
+        <p id="jam">00:00:00</p>
+      </div>
+
+      <div class="fitur">
+        <h3>🎮 Daftar hobi</h3>
+
+        <input type="text" id="hobiInput" placeholder="Masukkan hobi..." />
+
+        <button class="info" id="tambahHobi">Tambah</button>
+
+        <div id="listHobi"></div>
+
+        <small>Klik hobi untuk menghapus</small>
+      </div>
+
+      <div class="fitur">
+        <h3>🎵 Musik favorit</h3>
+
+        <audio id="musik" src="Hej Sokoly Bass.mp3"></audio>
+
+        <button class="info" id="playBtn">▶️ Play</button>
+        <button class="info" id="stopBtn">▶️ Stop</button>
+      </div>
+    </div>
+
+    <p style="margin-top: 30px">create by : Anggara</p>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
